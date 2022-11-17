@@ -1,0 +1,22 @@
+﻿@page
+@model LuisaKatrina.SaveJsonFile.Pages.FormModel
+@{
+}
+<form method="Post">
+    <div class="form-group"
+    <label asp-for="Details">BOOK INPUT</label>
+    <input type="text" class="form-control" id="@Model.Details?.Book" placeholder="Bible">
+     </div>
+    <div class="form-group"
+    <label asp-for="Details">CHAPTER INPUT</label>
+    <input type="text" class="form-control" id="@Model.Details?.Chapter" placeholder="Chapter">
+     </div>
+    <div class="form-group"
+    <label asp-for="Details">VERSE</label>
+    <input type="text" class="form-control" id="@Model.Details?.Verse" placeholder="Verse">
+     </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+
+</form> 
